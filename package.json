@@ -1,0 +1,19 @@
+{
+  "name": "hello-devops-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "niwim",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
